@@ -47,6 +47,15 @@ function App() {
         />
         <Dashboard theme={theme} />
       </Layout>
+      <Layout.Footer
+        style={{
+          background: `transparent`,
+          color: `#fff`,
+          textAlign: `center`
+        }}
+      >
+        <a href="https://petarstefanov.com">Developed By</a>
+      </Layout.Footer>
     </Layout>
   );
 }
