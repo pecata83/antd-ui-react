@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#leaflet-us-map.leaflet-container {
+  height: 324px;
+  width: 100%;
+  z-index: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.no-hover:hover {
+  border-bottom: 2px solid transparent !important;
+}
+
+.ant-menu-item .ant-avatar .anticon {
+  margin: 0;
 }
